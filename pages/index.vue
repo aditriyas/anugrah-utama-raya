@@ -3,7 +3,7 @@
     <Navbar />
     <Sales />
     <Pricing />
-    <Gallery />
+    <Pricelists />
     <Footer />
     <a
       class="wa-button-container btn btn-primary"
@@ -33,8 +33,12 @@ export default {
 }
 
 .wa-image {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  @media only screen and (min-width: 600px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .wa-button {
@@ -42,13 +46,24 @@ export default {
   gap: 8px;
   text-decoration: none;
   color: #fff;
+
+  p {
+    font-size: 12px;
+    @media only screen and (min-width: 600px) {
+      font-size: 16px;
+    }
+  }
 }
 
 .wa-button-container {
+  padding: 10px 22px;
   position: fixed;
   right: 30px;
   bottom: 50px;
   background: #425f57;
+  @media only screen and (min-width: 600px) {
+    padding: 15px 26px 15px 26px;
+  }
 }
 .wa-button-container:hover {
   background: rgb(144, 177, 132);

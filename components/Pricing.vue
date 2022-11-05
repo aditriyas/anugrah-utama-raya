@@ -17,7 +17,7 @@
             <div class="col-lg-6 col-12">
               <div class="master-card basic-card">
                 <h5 class="name">Jual & Beli</h5>
-                <h1 class="price">Rp.1xxx,xxx</h1>
+                <h1 class="price">Rp.1xxx,xx</h1>
                 <p class="support">
                   Disarankan untuk penggunaan <br />
                   Scaffolding jangka waktu panjang
@@ -46,7 +46,7 @@
             <div class="col-lg-6 col-12">
               <div class="master-card most-card">
                 <h5 class="name">Penyewaan</h5>
-                <h1 class="price">Rp.2xxx,xxx</h1>
+                <h1 class="price">Rp.2xxx,xx</h1>
                 <p class="support">
                   Cocok untuk penggunaan <br />
                   Scaffolding dalam satu proyek

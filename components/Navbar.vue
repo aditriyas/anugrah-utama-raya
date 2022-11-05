@@ -33,7 +33,7 @@
             <a class="nav-link active" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#contact">Contact</a>
+            <a class="nav-link active" href="#footer">Contact</a>
           </li>
         </ul>
       </div>

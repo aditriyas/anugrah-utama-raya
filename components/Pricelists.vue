@@ -1,5 +1,5 @@
 <template>
-  <section class="" id="about-us">
+  <section class="" id="pricelist">
     <div class="container">
       <div class="col-lg-12 col-12 text-center">
         <h1 class="header">Pricelist</h1>
@@ -121,12 +121,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#about-us {
+#pricelist {
   padding: 70px 0;
 }
 
 table {
   border-radius: 12px;
+  font-size: 14px;
+  @media only screen and (min-width: 600px) {
+    font-size: 16px;
+  }
 
   thead {
     background-color: #425f57;

@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center text-lg-start bg-white text-muted">
+  <footer id="footer" class="text-center text-lg-start bg-white text-muted">
     <!-- Section: Links  -->
     <section class="footer">
       <div class="container text-md-start mt-4">
