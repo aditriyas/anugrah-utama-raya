@@ -35,7 +35,7 @@
                   <p>Lorem ipsum dolor sit amet.</p>
                 </div>
                 <a
-                  href="https://api.whatsapp.com/send?phone=6281296839332"
+                  href="https://api.whatsapp.com/send?phone=6281284956358"
                   target="_blank"
                   class="btn btn-primary me-2"
                 >
@@ -72,7 +72,7 @@
                   <p>Lorem ipsum dolor sit amet.</p>
                 </div>
                 <a
-                  href="https://api.whatsapp.com/send?phone=6281296839332"
+                  href="https://api.whatsapp.com/send?phone=6281284956358"
                   target="_blank"
                   class="btn btn-primary me-2"
                 >

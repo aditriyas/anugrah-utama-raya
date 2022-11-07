@@ -7,7 +7,7 @@
     <Footer />
     <a
       class="wa-button-container btn btn-primary"
-      href="https://api.whatsapp.com/send?phone=6281296839332"
+      href="https://api.whatsapp.com/send?phone=6281284956358"
       target="_blank"
     >
       <div class="wa-button flex">
