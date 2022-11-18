@@ -1,10 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light navbar-tp">
     <div class="container">
-      <a class="navbar-brand" href="#" style="color: #02044a">
-        <!-- <img src="~assets/images/logo.png" height="45" alt="logo Telepatia" /> -->
-        <h4 class="mb-0">PT. ANUGRAH UTAMA RAYA</h4>
-      </a>
+      <img src="~assets/images/logo-anugrah.png" alt="Anugrah Utama Raya" />
       <button
         class="navbar-toggler"
         type="button"
@@ -30,9 +27,6 @@
             <a class="nav-link active" href="#pricelist">Pricelist</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#gallery">Gallery</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active" href="#footer">Contact</a>
           </li>
         </ul>
@@ -45,11 +39,28 @@
 export default {}
 </script>
 
-<style>
+<style lang="scss" scoped>
 .navbar {
   position: sticky;
   top: 0;
   background-color: #fff;
   z-index: 999;
+}
+
+img {
+  width: 250px;
+  height: auto;
+
+  @media only screen and (min-width: 600px) {
+    width: 350px;
+  }
+}
+
+.navbar-tp {
+  padding: 10px;
+
+  @media only screen and (min-width: 600px) {
+    padding: 30px;
+  }
 }
 </style>

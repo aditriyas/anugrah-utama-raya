@@ -1,7 +1,8 @@
 <template>
   <section class="sales" id="about-us">
-    <div class="hero relative">
-      <div class="col-lg-6 col-sm-12 copywriting absolute">
+    <div class="hero">
+      <img src="~assets/images/anugrah_hero.png" alt="" />
+      <!-- <div class="col-lg-6 col-sm-12 copywriting absolute">
         <h1 class="header">
           PT. ANUGRAH <br />
           UTAMA RAYA
@@ -20,7 +21,7 @@
           </a>
           <a href="#gallery" class="btn btn-secondary"> Gallery </a>
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -30,12 +31,12 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.hero {
-  background-image: url('~assets/images/background-hero.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
+// .hero {
+//   background-image: url('~assets/images/anugrah_hero.png');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+// }
 
 .copywriting {
   background-color: #fff;
@@ -52,5 +53,11 @@ export default {}
   top: 50%;
   transform: translateY(-50%);
   left: 32px;
+}
+
+img {
+  width: 100%;
+  // height: 100vh;
+  height: auto;
 }
 </style>
