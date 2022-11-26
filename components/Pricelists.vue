@@ -1,25 +1,47 @@
 <template>
   <section class="" id="pricelist">
     <div class="container">
-      <div class="col-lg-12 col-12 text-center">
-        <h1 class="header">Pricelist</h1>
-        <p class="description">Daftar harga sewa scaffolding baru dan bekas</p>
-        <table class="table">
-          <thead class="thead-dark head">
-            <tr>
-              <th scope="col">No.</th>
-              <th scope="col">Item</th>
-              <th scope="col">Harga</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(item, i) in pricelists" :key="item.item">
-              <th scope="row">{{ i + 1 }}</th>
-              <td>{{ item.item }}</td>
-              <td>{{ item.price }}</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="~assets/images/sewa-2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+          />
+
+          <img
+            src="~assets/images/jual.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="~assets/images/scaffolding_img (1).JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          />
+          <img
+            src="~assets/images/scaffolding_img (3).JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="~assets/images/scaffolding_img (2).JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          />
+          <!--
+          <img
+            src="~assets/images/scaffolding_img (4).JPG"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          /> -->
+        </div>
       </div>
     </div>
   </section>

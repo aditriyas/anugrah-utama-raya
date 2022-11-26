@@ -1,7 +1,7 @@
 <template>
   <section class="sales" id="about-us">
     <div class="hero">
-      <img src="~assets/images/anugrah_hero.png" alt="" />
+      <img src="~assets/images/hero_img.png" alt="" />
       <!-- <div class="col-lg-6 col-sm-12 copywriting absolute">
         <h1 class="header">
           PT. ANUGRAH <br />
